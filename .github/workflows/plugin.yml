@@ -1,0 +1,18 @@
+name: Pets
+version: 1.0.0
+main: ru.pets.PetsPlugin
+api-version: '1.21'
+description: Питомцы-сферы с уровнями, уроном, уклонением и защитой
+softdepend: [Vault]
+
+commands:
+  pets:
+    description: Меню питомцев
+    usage: /pets
+    permission: pets.use
+
+permissions:
+  pets.use:
+    default: true
+  pets.admin:
+    default: op
