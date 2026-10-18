@@ -1,0 +1,8 @@
+currency-name: "риликов"
+upgrade-cost: 10000
+max-level: 100
+damage-per-level: 2.0
+dodge-per-level: 0.5
+defense-per-level: 0.5
+dodge-max: 40.0
+defense-max: 50.0
